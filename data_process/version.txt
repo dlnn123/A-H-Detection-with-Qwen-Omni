@@ -1,0 +1,6 @@
+Behavioural Ambivalence/Hesitancy (BAH) dataset.
+Release date: jan. 31st, 2026.
+Number of participants: 300.
+arXiv paper: https://arxiv.org/pdf/2505.19328
+Github: https://github.com/sbelharbi/bah-dataset
+Contact: livia-datasets@livia.etsmtl.ca

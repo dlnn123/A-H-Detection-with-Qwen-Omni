@@ -1,0 +1,90 @@
+Videos/82553/Visite_1/82553_Question_1_2024-08-22_12-11-55_Video.mp4:
+  all_cues:
+  - audio: null
+    body: null
+    facial: null
+    inconsistencies: null
+    language: null
+  - audio: null
+    body: null
+    facial: null
+    inconsistencies: null
+    language: null
+  annotator_id: MGG
+  certainty_ah:
+  - 1
+  fr_detailed_ah:
+  - - 51
+    - 95
+  frame_annotation:
+  - - Videos/82553/Visite_1/82553_Question_1_2024-08-22_12-11-55_Video.mp4/frame-0.jpg
+    - 0
+  global_ah: 1
+  time_detailed_ah:
+  - - '00:00:01.721'
+    - '00:00:04.410'
+  - - '00:00:04.984'
+    - '00:00:11.000'
+  transcript:
+    chunks:
+    - language: english
+      text: ' I get a lot of joy doing things around the house, some DIY projects
+        and overall just producing something that I can physically touch.'
+      timestamp: !!python/tuple
+      - 0.0
+      - 12.0
+    - language: english
+      text: ' In my job I make a lot of decisions but not a lot of concrete results.'
+      timestamp: !!python/tuple
+      - 12.0
+      - 16.88
+    text: ' I get a lot of joy doing things around the house, some DIY projects and
+      overall just producing something that I can physically touch. In my job I make
+      a lot of decisions but not a lot of concrete results.'
+Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4:
+  all_cues:
+  - audio: null
+    body: null
+    facial: null
+    inconsistencies: null
+    language: null
+  annotator_id: MGG
+  certainty_ah:
+  - 3
+  fr_detailed_ah: []
+  frame_annotation:
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-0.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-1.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-2.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-3.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-4.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-5.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-6.jpg
+    - 0
+  - - Videos/82553/Visite_1/82553_Question_3_2024-08-22_12-19-41_Video.mp4/frame-7.jpg
+  global_ah: 1
+  time_detailed_ah:
+  - - '00:00:01.481'
+    - '00:00:05.963'
+  transcript:
+    chunks:
+    - language: english
+      text: ' I''d like to stop watching too many movies or social media activities.'
+      timestamp: !!python/tuple
+      - 0.0
+      - 7.0
+    - language: english
+      text: ' I feel it''s just starting to become a waste of my time and I could
+        be doing more constructive things.'
+      timestamp: !!python/tuple
+      - 7.0
+      - 14.0
+    text: ' I''d like to stop watching too many movies or social media activities.
+      I feel it''s just starting to become a waste of my time and I could be doing
+      more constructive things.'

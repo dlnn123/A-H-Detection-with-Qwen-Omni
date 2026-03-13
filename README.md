@@ -45,4 +45,3 @@ The inference and evaluation pipeline includes three key scripts for clip-level 
 3. Train model: Choose SFT or GRPO training
 
 4. Inference & evaluation: Clip inference → Voting → Video-level prediction
-> （注：文档部分内容可能由 AI 生成）

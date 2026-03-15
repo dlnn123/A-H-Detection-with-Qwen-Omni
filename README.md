@@ -12,7 +12,7 @@ This project provides a complete pipeline for video detection tasks, including d
 - Linux System (Ubuntu 20.04 / 22.04 recommended)
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ## 2. Data Preprocessing (data_process/)

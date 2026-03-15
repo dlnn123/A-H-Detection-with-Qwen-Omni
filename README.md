@@ -4,7 +4,18 @@
 
 This project provides a complete pipeline for video detection tasks, including data preprocessing, model training (SFT & GRPO), and video-level inference evaluation, based on the Qwen3 Omni model and MS-Swift framework.
 
-## 1. Data Preprocessing (data_process/)
+## 1. Environment Requirements
+- Python 3.10+
+
+- CUDA 12.1+ (Required for vLLM / FlashAttention support)
+
+- Linux System (Ubuntu 20.04 / 22.04 recommended)
+
+```bash
+pip install -r requirements.txt
+```
+
+## 2. Data Preprocessing (data_process/)
 
 All data preprocessing scripts are stored in the `data_process/` directory, following the sequence below:
 
@@ -18,7 +29,7 @@ All data preprocessing scripts are stored in the `data_process/` directory, foll
 
 - `dataset_grpo.py`: Construct the dataset specialized for GRPO training.
 
-## 2. Model Training (Based on MS-Swift Framework)
+## 3. Model Training (Based on MS-Swift Framework)
 
 Training scripts are located in `ms-swift/examples/train/`, supporting two training methods:
 
@@ -26,7 +37,7 @@ Training scripts are located in `ms-swift/examples/train/`, supporting two train
 
 - **GRPO Training**: Use `grpo/plugin/Qwen3-VL-4B-reward_func.sh` for GRPO (Group Relative Policy Optimization) training with reward function support.
 
-## 3. Inference & Evaluation (inference/)
+## 4. Inference & Evaluation (inference/)
 
 The inference and evaluation pipeline includes three key scripts for clip-level and video-level prediction:
 
@@ -37,11 +48,12 @@ The inference and evaluation pipeline includes three key scripts for clip-level 
 - `vote.py`: Implement video-level prediction through a voting mechanism (Video-Level Prediction).
 
 ## Pipeline Overview
+1. Environment
 
-1. Preprocess videos: Crop via config → Find long videos → Slice and crop clips
+2. Preprocess videos: Crop via config → Find long videos → Slice and crop clips
 
-2. Construct datasets (standard dataset & GRPO dataset)
+3. Construct datasets (standard dataset & GRPO dataset)
 
-3. Train model: Choose SFT or GRPO training
+4. Train model: Choose SFT or GRPO training
 
-4. Inference & evaluation: Clip inference → Voting → Video-level prediction
+5. Inference & evaluation: Clip inference → Voting → Video-level prediction

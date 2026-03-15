@@ -1,0 +1,10 @@
+flash_attn==2.8.3
+moviepy==1.0.3
+ffmpeg==1.4
+vllm==0.11.0
+zipp==3.23.0
+ms_swift==4.0.0.dev0
+multiprocess==0.70.16
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0

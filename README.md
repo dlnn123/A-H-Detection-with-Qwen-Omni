@@ -1,6 +1,6 @@
 # README.md
 
-# A-H-Detection-with-Qwen-Omni
+#  A-H-Detection-with-Qwen-Omni
 
 This project provides a complete pipeline for video detection tasks, including data preprocessing, model training (SFT & GRPO), and video-level inference evaluation, based on the Qwen3 Omni model and MS-Swift framework.
 
